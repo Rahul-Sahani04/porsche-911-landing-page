@@ -54,7 +54,7 @@ function App() {
           <h1 className="brand-name">PORSCHE</h1>
           <img
             className="logo"
-            src="./assets/Porsche-logo.png"
+            src="./assets/PorscheLogo.png"
             alt="Porsche Logo"
           />
         </div>

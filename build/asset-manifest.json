@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/porsche-911-landing-page/static/css/main.03befd06.css",
-    "main.js": "/porsche-911-landing-page/static/js/main.2de12bb6.js",
+    "main.js": "/porsche-911-landing-page/static/js/main.74369395.js",
     "static/js/453.b195b9ec.chunk.js": "/porsche-911-landing-page/static/js/453.b195b9ec.chunk.js",
     "index.html": "/porsche-911-landing-page/index.html",
     "main.03befd06.css.map": "/porsche-911-landing-page/static/css/main.03befd06.css.map",
-    "main.2de12bb6.js.map": "/porsche-911-landing-page/static/js/main.2de12bb6.js.map",
+    "main.74369395.js.map": "/porsche-911-landing-page/static/js/main.74369395.js.map",
     "453.b195b9ec.chunk.js.map": "/porsche-911-landing-page/static/js/453.b195b9ec.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.03befd06.css",
-    "static/js/main.2de12bb6.js"
+    "static/js/main.74369395.js"
   ]
 }
