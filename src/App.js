@@ -6,7 +6,7 @@ import Details from "./components/details";
 function App() {
 
 
-  // When deploying replace /assets with /porsche-911-landing-page/assets
+  // When deploying replace  /porsche-911-landing-page/assets with /assets
 
   const scrollRef = useRef(null);
   const ref = useRef(null);
