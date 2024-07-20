@@ -7,7 +7,7 @@ function App() {
 
 
   // When deploying replace /assets with /porsche-911-landing-page/assets
-  
+
   const scrollRef = useRef(null);
   const ref = useRef(null);
 
@@ -54,7 +54,7 @@ function App() {
           <h1 className="brand-name">PORSCHE</h1>
           <img
             className="logo"
-            src="./porsche-911-landing-page/assets/Porsche-logo.png"
+            src="./assets/Porsche-logo.png"
             alt="Porsche Logo"
           />
         </div>
@@ -87,7 +87,7 @@ function App() {
             animate={carControls}
             transition={{ duration: 0.65, delay: 0.1, type: "circInOut" }}
             className="car__image"
-            src="./porsche-911-landing-page/assets/Porsche-911-GT3-RS_waifu2x_noise3_scale2x.png"
+            src="./assets/Porsche-911-GT3-RS_waifu2x_noise3_scale2x.png"
             alt="Porsche Car"
           ></motion.img>
         </div>
