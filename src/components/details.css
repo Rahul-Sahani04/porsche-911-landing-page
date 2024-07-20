@@ -1,0 +1,70 @@
+.details {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.details p{
+    margin: 5px;
+}
+
+.details__grid {
+    padding: 5%;
+    margin-top: 5%;
+    /* Add styling for the grid container */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+
+    justify-content: space-around;
+}
+
+.details__column {
+    /* Add styling for the grid columns */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.details__row {
+    width: 60%;
+}
+
+.row__tag{
+    /* Add styling for the tag rows */
+    font-weight: 300;
+    font-size: 1.5rem;
+
+}
+
+.row__car__name{
+    /* Add styling for the car name row */
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.row__car__type{
+    /* Add styling for the car type row */
+    letter-spacing: 10px;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+.row__data{
+    /* Add styling for the data rows */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.more__text{
+    /* Add styling for the car details */
+    text-align: left;
+    font-weight: 300;
+    padding-left: 5%;
+    padding-right: 5%;
+}

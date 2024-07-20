@@ -1,38 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
 .App {
   text-align: center;
+  overflow: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.header {
+  background: rgb(118, 153, 157);
+  background: linear-gradient(180deg, #416B91 0%, rgba(243, 248, 242, 1) 100%);
+
+  height: 200%;
+  width: 100%;
+
+  padding-bottom: 5%;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header__items {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 4%;
 }
 
-.App-link {
-  color: #61dafb;
+.brand-name {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2.5rem;
+
+  margin: 0;
+  width: 50%;
+
+  text-align: left;
+  /* padding: 4%; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logo{
+  width: 150px;
+}
+
+.header__tagline{
+
+
+  margin: 0;
+  width: 100%;
+
+
+  text-align: right;
+  /* padding: 4%; */
+
+
+}
+
+.tagline{
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 2rem;
+  text-align: center;
+
+  margin-top:  5%;
+  margin-bottom:  10%;
+}
+
+.header__content {
+  position: relative;
+}
+.car__name{
+  font-family: "Space Mono", monospace;
+  font-weight: 600;
+  font-style: normal;
+
+
+  letter-spacing: -25px;
+  font-size: 20rem;
+  text-align: center;
+  margin: 0;
+  transform: scale(0.7, 1);
+
+  margin-bottom: 5%;
+
+
+  /* Add gradient fade from top to bottom to text */
+  background: linear-gradient(180deg, #000 60%, rgba(243, 248, 242, 1) 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  position: relative;
+  z-index: 5;
+}
+
+
+.car__image{
+  width: 90%;
+
+  position: absolute;
+  top: 85%;
+  left: 52%;
+  transform: translate(-50%, -50%);
+
+  z-index: 10;
+
+  /* Blend the image with the background */
+  /* mix-blend-mode: multiply; */
 }
