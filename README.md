@@ -1,4 +1,3 @@
-```markdown
 # Porsche Showcase App
 
 ## Overview
