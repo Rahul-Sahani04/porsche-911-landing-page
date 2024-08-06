@@ -65,6 +65,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - [Rahul Sahani](https://github.com/Rahul-Sahani04/) - me.rsahani@gmail.com
+[Rahul Sahani](https://github.com/Rahul-Sahani04/) - me.rsahani@gmail.com
 
 Project Link: [Rahul-Sahani04/porsche-911-landing-page](https://github.com/Rahul-Sahani04/porsche-911-landing-page)
